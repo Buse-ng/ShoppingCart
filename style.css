@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.shopping-cart-list{
+    position: absolute; /* bulundugu yerden cikarttik*/ 
+    width: 25rem;
+    right: -0.75rem;
+    top: 2.9rem;
+    padding: 1rem;
+    z-index: 1; /*  diğer objelerin yukarisinda durmasini istiyorum*/
+}
+
+.shopping-cart-list .list-item{
+    margin-top: 1rem;
+}
